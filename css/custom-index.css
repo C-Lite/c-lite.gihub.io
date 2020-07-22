@@ -5,10 +5,16 @@ nav.navbar{
     color: black;
     transform: scale(1.05);
 }
+.navbar-brand {
+    width: 50%;
+}
+
+
 
 .navbar-brand img {
     top: 3px;
 }
+
 
 @media only screen and (max-width:991px)
 {
@@ -17,13 +23,6 @@ nav.navbar{
            height: 21px;
     }
 }
-
-/* changing margin for navbar items */
-/* not working */
-#navbarSupportedContent {
-    justify-content: flex-end;
-    margin-right: 100px;
-} 
 
 .gplay-btn {
     height: 6.2rem;
