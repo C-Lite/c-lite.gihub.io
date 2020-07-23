@@ -9,22 +9,38 @@ nav.navbar{
     width: 47%;
 }
 
-
+.home_menu .main-menu-item {
+    justify-content: flex-end !important;
+    margin-right: 60px;
+}
 
 .navbar-brand img {
     top: 3px;
 }
 
+.gplay-btn {
+    height: 5rem;
+    width: 12rem;
+}
 
 @media only screen and (max-width:991px)
 {
     nav.navbar
     {
-           height: 21px;
+       height: 21px;
+    }
+
+    .gplay-btn {
+        height: 4.4rem;
+        width: 11.1rem;
     }
 }
 
-.gplay-btn {
-    height: 6.2rem;
-    width: 16rem;
+.gplay-btn:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
 }
+
+
+
+
