@@ -1,7 +1,7 @@
 #Do not directly push to the master branch.
 
 Solve the respective issue
-Make a branch for the resoective issue and create pull request, merge it to dev branch.
+Make a branch for the respective issue and create pull request, merge it to dev branch.
 
 #Creating issues
 
