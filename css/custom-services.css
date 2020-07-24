@@ -21,6 +21,9 @@ nav.navbar{
     {
            height: 21px;
     }
+    .student-img {
+        margin-bottom: 2.3rem ;
+    }
 }
 
 div.collapse.navbar-collapse.main-menu-item li.nav-item a.nav-link b {
