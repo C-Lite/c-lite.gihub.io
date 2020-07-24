@@ -12,7 +12,7 @@ nav.navbar{
 
 .home_menu .main-menu-item {
     justify-content: flex-end !important;
-    margin-right: 0px;
+    margin-right: 60px;
 }
 
 @media only screen and (max-width:991px)
