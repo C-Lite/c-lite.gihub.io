@@ -11,6 +11,11 @@ nav.navbar{
     top: 3px;
 }
 
+.home_menu .main-menu-item {
+    justify-content: flex-end !important;
+    margin-right: 0px;
+}
+
 @media only screen and (max-width:991px)
 {
     nav.navbar
