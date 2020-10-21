@@ -3437,6 +3437,19 @@ ul {
   padding: 130px 0px 25px;
 }
 
+footer.footer_part div.container div.row{
+  justify-content: space-evenly;
+}
+
+div.single_footer_part{
+  text-align: center;
+}
+
+footer.footer_part div.container{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 @media (max-width: 576px) {
   /* line 2, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_footer.scss */
   .footer_part {
