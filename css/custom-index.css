@@ -41,6 +41,13 @@ nav.navbar{
     transition: 0.6s;
 }
 
+div.caraouselContainer{
+    width: 45%;
+    margin-top: 60px;
+    margin-left: 52%;
+    border: solid 0.5px #000;
+    padding:2px;
+}
 
 a#ButtonCarousel:hover{
     background-color: black;
