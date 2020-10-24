@@ -42,11 +42,10 @@ nav.navbar{
 }
 
 div.caraouselContainer{
-    width: 56%;
+    width: 75%;
     border: solid 0.5px #000;
     padding:2px;
     margin: auto;
-    margin-right: 42%;
     margin-top: 60px;
     margin-bottom: 140px;
 }
@@ -54,7 +53,7 @@ div.caraouselContainer{
 @media only screen and (max-width:805px)
 {
     div.caraouselContainer{
-        width: 56%;
+        width: 75%;
         margin: auto;
         margin-top: 100px;
         margin-bottom: 140px;
