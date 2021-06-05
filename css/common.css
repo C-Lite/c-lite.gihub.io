@@ -26,7 +26,6 @@ body
     line-height: 22px; 
     padding:13px 200px 0px 224px;
     min-height: 83px;
-
 }
 .navbar-container.c-shadow
 {
@@ -75,6 +74,14 @@ body
 div.hrdiv
 {
     display: none;
+}
+
+@media(max-width: 752px)
+{
+    .navbar-container
+    {
+        padding: 0px 5% 0px 5%;
+    }
 }
 
 @media(max-width: 572px)

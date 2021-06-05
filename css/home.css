@@ -193,7 +193,10 @@ img.vector-image
 {
     margin-top: 13px;
     padding-right: 0;
-    margin-right: 0;  
+    margin-right: 0;
+    margin-top: 24px;
+    margin-bottom: 15px; 
+    font-size: 24px; 
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: bold;
@@ -219,6 +222,9 @@ img.vector-image
     margin-top: 7px;  
     margin-left: 0;
     padding-left: 0;
+    margin-top: 25px !important;
+    margin-bottom: 15px !important; 
+    font-size: 24px; 
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: bold;
