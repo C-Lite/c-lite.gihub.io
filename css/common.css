@@ -76,7 +76,7 @@ div.hrdiv
     display: none;
 }
 
-@media(max-width: 752px)
+@media(max-width: 900px)
 {
     .navbar-container
     {

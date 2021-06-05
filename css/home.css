@@ -414,6 +414,12 @@ img.vector-image
     {
         margin-top: 60px;
     }
+    #hero.hero.container-fluid
+    {
+        background-color: #ffffff;
+        min-height: calc(100vh - 72px);
+        padding: 18vh 10.46% 2.78% 10.46%;
+    }
 }
 
 #college-list
