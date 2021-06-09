@@ -1,7 +1,3 @@
-const observer = lozad();
-observer.observe();
-
-
 $('#base-navbar .nav-item a.nav-link').click(function(){
     $('#base-navbar .nav-item a.nav-link.active').removeClass('active');
     $(this).addClass('active');
@@ -16,4 +12,3 @@ function scrollFunction(){
         $('.container-fluid.navbar-container.fixed-top.c-shadow').removeClass('c-shadow');
       }     
 }
-

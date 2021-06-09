@@ -1,5 +1,12 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Nunito+Sans&display=swap'); */
 
+
+.buttona
+{
+  margin:0 !important;
+  padding:0 !important;
+}
+
 #learning-shall-not-stop.container-fluid
 {
     background-color: #69E781;
@@ -247,6 +254,7 @@ img.vector-image
     text-align: center;
     margin-top: 180px;
     margin-bottom: 20px;
+    margin-right: 2px;
     font-size: 30px;
     font-weight: 700;
     font-family: 'Fira Sans';
@@ -461,7 +469,7 @@ img.vector-image
 {
     max-width: 400px;
     margin-bottom: 10px;
-    border-radius: 40px;
+    border-radius: 10px;
 }
 
 .card:hover
