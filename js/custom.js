@@ -1,8 +1,11 @@
 $('#base-navbar .nav-item a.nav-link').click(function(){
     $('#base-navbar .nav-item a.nav-link.active').removeClass('active');
     $(this).addClass('active');
-})
+});
 
+$('#brand-image').click(function(){
+  $('#base-navbar .nav-item a.nav-link.active').removeClass('active');
+});
 
 function scrollFunction(){
       if (document.body.scrollTop>100||document.documentElement.scrollTop>100){

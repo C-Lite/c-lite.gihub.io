@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Nunito+Sans&display=swap'); */
 
 
 .buttona
@@ -9,7 +8,7 @@
 
 #learning-shall-not-stop.container-fluid
 {
-    background-color: #69E781;
+    background: linear-gradient(143.13deg, #64C4E1 12.88%, #0E91E7 83.23%);
     padding: 10vh 9.7% 5.56% 10.98%;
 }
 
@@ -40,8 +39,10 @@ p.text-learn-row-2
 
 img.vector-image
 {
-    padding-left: 5.6%;
-    width: 80%;
+    padding-top: 10%;
+    padding-left: 6%;
+    width: 90%;
+    padding-bottom: 20px;
     object-fit: fill;
 }
 
@@ -83,7 +84,6 @@ img.vector-image
         object-fit: fill;
     }
 }
-
 
 
 @media(max-width:1200px)
@@ -142,6 +142,7 @@ img.vector-image
     }
     img.vector-image
     {
+        padding-top: 0px;
         padding-left: 0px;
     }
     #knowmorebtn
@@ -152,38 +153,37 @@ img.vector-image
 }
 
 
-#hero.hero.container-fluid
+#service.hero.container-fluid
 {
     background-color: #ffffff;
     min-height: calc(100vh - 72px);
     padding: 25vh 10.46% 2.78% 10.46%;
 }
-#hero .row.container-fluid.justify-content-center
+#service .row.container-fluid.justify-content-center
 {
     margin:auto !important ;
 }
 
-#hero #student-svg
+#service #student-svg
 {
     margin-right: 0;
     padding-right: 0;
 }
 
-#hero #teacher-svg
+#service #teacher-svg
 {
     margin-left: 0;
     padding-left: 0;
 }
 
-#hero #student-svg,#hero #teacher-svg
+#service #student-svg,#service #teacher-svg
 {
-    background: url('../img/Group62.svg');
     /* Note: backdrop-filter has minimal browser support */
     background-size: 100%;
     border-radius: 42px;
 }
 
-#hero div.dotted-lines
+#service div.dotted-lines
 {
     margin: auto;
     width: 1px !important;
@@ -196,7 +196,7 @@ img.vector-image
     display: block;
 }
 
-#hero span.for-students
+#service span.for-students
 {
     margin-top: 13px;
     padding-right: 0;
@@ -209,7 +209,7 @@ img.vector-image
     font-weight: bold;
 }
 
-#hero p.for-students-para
+#service p.for-students-para
 {
     margin-left: 0;
     padding-left: 0;
@@ -224,7 +224,7 @@ img.vector-image
     line-height: 20px;
 }
 
-#hero span.for-instructors
+#service span.for-instructors
 {
     margin-top: 7px;  
     margin-left: 0;
@@ -237,12 +237,12 @@ img.vector-image
     font-weight: bold;
 }
 
-#hero .row.container
+#service .row.container
 {
     padding: 0% 10.46% 0% 10.46%;
 }
 
-#hero .row.container #playstorebtn
+#service .row.container #playstorebtn
 {
     margin: auto;
     transform: scale(0.9);
@@ -261,89 +261,72 @@ img.vector-image
     display:block;
 }
 
-#hero .row.container #playstorebtn:hover
+#service .row.container #playstorebtn:hover
 {
     transition: 0.4s;
     transform: scale(1.04);
 }
 
-#hero #student-corner
+#service #student-corner
 {
     padding-left: 5%;
 }
 
-#hero #teacher-corner
+#service #teacher-corner
 {
     padding-right: 5%;
 }
 
-#hero .row2
+#service .row2
 {
     display: none;
 }
 
-#arrowdown
-{
-    text-align: end;
-    margin-top: 100px;
-    padding:0px;
-}
-#arrowdown img
-{
-    width: 60px;
-    height: 60px;    
-}
-#arrowdown img:hover
-{
-    box-shadow: 0 0 15px #4dc247;
-    border-radius: 80px;
-    text-shadow: 0 0 15px #4dc247;
-    transition: all 0.5s ease;
-    cursor: pointer; 
-}
+
+
 @media(max-width:1400px)
 {
-    #hero #student-svg,#hero #teacher-svg
+    #service #student-svg,#service #teacher-svg
     {
         margin: auto;
     }
 
-    #hero span.for-students, #hero p.for-students-para, #hero span.for-instructors
+    #service span.for-students, #service p.for-students-para, #service span.for-instructors
     {
         margin-left: auto;
         margin-right: auto;
     }
 
-    #hero #middlecol
+    #service #middlecol
     {
         display: none;
     }
 
-    #hero div.dotted-lines
+    #service div.dotted-lines
     {
         display: none;
     } 
 
-    #hero .row.container #playstorebtn,.playstorebtntext
+    #service .row.container #playstorebtn,.playstorebtntext
     {
         display: none;
     }  
     
-    #hero #student-corner
+    #service #student-corner
     {
         padding-left: 0%;
     }
 
-    #hero #teacher-corner
+    #service #teacher-corner
     {
         padding-right: 0%;
     }
     
-    #hero .row2
+    #service .row2
     {
         display: block;
     }
-    #hero .row.container.row2 #playstorebtn
+    #service .row.container.row2 #playstorebtn
     {
         margin: auto;
         margin-top: 20px;
@@ -358,16 +341,16 @@ img.vector-image
 
 @media(max-width:1199px)
 {
-    #hero .col-xl
+    #service .col-xl
     {
         margin-bottom:150px;
     } 
-    #hero div.row.container-fluid
+    #service div.row.container-fluid
     {
         margin: auto;
 
     }
-    #hero #student-corner
+    #service #student-corner
     {
         margin: auto;
         padding:0px;
@@ -383,35 +366,35 @@ img.vector-image
         padding-right: 0px;
     }
     
-    #hero .row .row
+    #service .row .row
     {
         text-align: center;
         padding-left: 0px;
         padding-right: 0px;
     }
-    #hero .row .row span.for-instructors
+    #service .row .row span.for-instructors
     {
         padding-right: 0px;
         margin: auto;
     }
-    #hero .row .row.text-center
+    #service .row .row.text-center
     {
         margin: auto;
     }
-    #hero #teacher-corner
+    #service #teacher-corner
     {
         margin: auto;
         padding:0px;
         margin-top: 40px;
         margin-bottom: 150px;
     }
-    #hero .row.container.row2
+    #service .row.container.row2
     {
         margin:auto;
         margin-top: 0px;
         margin-bottom: 100px;
     }
-    #hero .row.container.row2 #playstorebtn
+    #service .row.container.row2 #playstorebtn
     {
         background-size: contain;
         margin: auto;
@@ -422,7 +405,7 @@ img.vector-image
     {
         margin-top: 60px;
     }
-    #hero.hero.container-fluid
+    #service.hero.container-fluid
     {
         background-color: #ffffff;
         min-height: calc(100vh - 72px);
@@ -446,7 +429,13 @@ img.vector-image
     line-height: 60px;
     padding-bottom: 10vh;
     text-align: center;
-    color: #FB8569;
+    background-image: linear-gradient(143.13deg, #64C4E1 12.88%, #0E91E7 83.23%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
 
 #college-list .row1
@@ -469,14 +458,14 @@ img.vector-image
 {
     max-width: 400px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .card:hover
 {
     transform: scale(1.05);
     transition: all ease 0.4s;
-    border-color: #FB8569;
+    border-color: #0E91E7;
 }
 
 .card-img-top
@@ -552,12 +541,12 @@ div.text-container.container{
 } 
 
 div.text-container.container h2{
-    color: #F9CF5A;
+    color: #f95a5a;
     margin-top: auto;
     margin-bottom: auto;
     padding-left: 30%;
     padding-right: 30%;
-    text-align: center;
+    text-align: left;
     font-family: 'Fira Sans',serif;
     font-style: normal;
     font-weight: 700;

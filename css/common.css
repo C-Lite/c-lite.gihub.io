@@ -18,18 +18,18 @@ body
 
 .navbar-container
 {
-    background-color: #ffffff;
+    background: linear-gradient(143.13deg, #64C4E1 12.88%, #0E91E7 83.23%);
     font-family: 'Fira Sans';
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 16px;
     line-height: 22px; 
-    padding:13px 200px 0px 224px;
+    padding:1px 200px 0px 224px;
     min-height: 83px;
 }
 .navbar-container.c-shadow
 {
-    box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 2px 2px 2px #E5E5E5;
 }
 
 .navbar-nav
@@ -41,17 +41,39 @@ body
 .navbar-nav li.nav-item
 {
     margin: auto 0px auto 24px;
-
+    
 }
 
 .navbar-nav li.nav-item a.nav-link
 {
-    color:#474747;
+    color:#ffffff;
+}
+
+.navbar-light .navbar-toggler
+{
+    border-color: transparent; 
+}
+
+.navbar-light .navbar-toggler-icon
+{
+    background-image: url('../img/hamburger.svg') !important;
 }
 
 .navbar-nav li.nav-item a.nav-link.active
 {
-    text-decoration: underline rgba(105, 231, 129, 1) 4px !important;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: underline #ffffff 2px !important;
+    text-underline-offset:  5px;
+    
+    
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0
+{
+    padding-left: 32px !important;
+    padding-top: 10px !important;
 }
 
 #brand-image{
