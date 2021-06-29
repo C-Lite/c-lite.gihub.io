@@ -1,0 +1,21 @@
+#termsandconditions div.tnc-textblock
+{
+    width: 100% !important;
+    height: 200px;
+    padding:100px 20px 5% 20px !important;
+    text-align: center;
+    margin-top: 83px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 66px;
+}
+
+@media(max-width:606px)
+{
+    #termsandconditions p
+    {
+        margin-top: 80px;
+    }
+}

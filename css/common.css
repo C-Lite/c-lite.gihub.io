@@ -76,20 +76,45 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0
     padding-top: 10px !important;
 }
 
+li.nav-item
+{
+    width:fit-content !important;
+}
+
+
 #brand-image{
     padding-top: 10px;
     width: 120px !important;
 }
 
-@media(max-width: 1200px)
+
+#joindiscord
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    border:solid white 2px;
+    border-radius: 20px;
+}
+
+#joindiscord:hover
+{
+    color: #0E91E7;
+    background: white;
+}
+
+@media(max-width: 1199px)
 {
     .navbar-container
     {
-        padding: 13px 15% 0px 15%;
+        padding: 0px 5% 0px 5%;
     }
     .navbar-nav li.nav-item
     {
-        margin: auto 0px auto 0px;   
+        margin: 3px 0px auto 0px;   
+    }
+    #joindiscord
+    {
+        margin-left: -13px;
     }
 }
 
@@ -98,11 +123,10 @@ div.hrdiv
     display: none;
 }
 
-@media(max-width: 900px)
+@media (min-width: 992px)
 {
-    .navbar-container
-    {
-        padding: 0px 5% 0px 5%;
+    .mb-lg-0 {
+        margin-bottom: .5rem !important;
     }
 }
 
