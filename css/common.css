@@ -177,7 +177,7 @@ section .playstorebtn
     min-height: 100px;
     width: 400px;
     background: transparent !important;
-    padding: 10px !important;    
+    padding: 10px !important;   
 }
 
 section .playstorebtn:hover
