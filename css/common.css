@@ -11,14 +11,14 @@
 body
 {
   box-sizing: border-box;
-  background-color: #e6e7ee !important; 
+  background-color: #EEEEEE !important; 
   scroll-behavior: smooth;
 }
 
 
 .navbar-container
 {
-    background: linear-gradient(143.13deg, #44476a  12.88%, #2A354F 83.23%);
+    background: linear-gradient(143.13deg, #64C4E1 12.88%, #0E91E7 83.23%);
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 300;
@@ -140,7 +140,6 @@ div.hrdiv
     }
 }
 
-
 .section
 {
     display: block;
@@ -154,7 +153,7 @@ div.hrdiv
 
 .bg-soft
 {
-    background-color: #e6e7ee !important;
+    background-color: #EEEEEE !important;
 }
 
 
@@ -187,7 +186,7 @@ section .playstorebtn:hover
 
 .lead
 {
-    color: #44476a;
+    color: #000;
     font-size: 1.25rem;
     font-weight: 300;
 }
@@ -220,7 +219,10 @@ section .playstorebtn:hover
 }
 
 .shadow-soft {
-    box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff!important;
+    /* box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff!important; */
+    /* background: linear-gradient(145deg, #e6e6e6, #ffffff); */
+    box-shadow:  6px 6px 12px #d4d4d4,
+                 -6px -6px 12px #ffffff;
 }
 
 
@@ -291,7 +293,7 @@ section .playstorebtn:hover
 }
 
 .bg-primary {
-    background-color: #e6e7ee!important;
+    background-color: #EEEEEE!important;
 
 }
 

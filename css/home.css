@@ -23,7 +23,6 @@
   }
 }
 
-
 #learning-shall-not-stop.container
 {
   max-width: 1200px;
@@ -99,7 +98,7 @@
   }
 }
 
-  .playstorebtn
+.playstorebtn
 {
   border-radius: 6px;
   transform: scale(0.8);
@@ -127,7 +126,7 @@ section a.playstorebtn span
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
-  color: #44476A;
+  color: #0E91E7;
   vertical-align: middle !important;
 }
 
@@ -150,7 +149,7 @@ section a.playstorebtn span
 
 #colleges .card-title
 {
-  color: #2A354F;
+  color: #0E91E7;
 }
 
 #carousel-section
@@ -180,7 +179,7 @@ section a.playstorebtn span
 #contact a.btn
 {
   border-radius: 6px;
-  color: #44476A;
+  color: #0E91E7;
   font-weight: 600;
 }
 #contact a.btn:hover
