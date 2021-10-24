@@ -15,6 +15,60 @@
     cursor: pointer;
 }
 
+.modal-body img.modal-img
+{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+} 
+
+.modal-body .modal-heading-text
+{
+    text-align: right;
+    padding-left: 50px;
+}
+
+.modal-body .modal-heading-text h2
+{
+    margin-right: 10px;
+}
+
+.modal-body .modal-heading-text p
+{
+    text-align: left;
+}
+
+@media screen and (max-width:992px)
+{
+    .modal-body img.modal-img
+    {
+        display: block;
+        margin: auto auto 30px auto;
+        text-align: center;
+    } 
+    
+    .modal-body .modal-heading-text
+    {
+        padding: 0;
+        text-align: center;
+    }
+    
+    .modal-body .modal-heading-text h2
+    {
+        margin-right: 0px;
+    }
+    
+    .modal-body .modal-heading-text p
+    {
+        padding: 5px 15px 0px 15px;
+        text-align: center;
+    }
+    table.table.table-striped
+    {
+        margin: 40px 0px;
+    }
+}
+
 .btn.btn-primary
 {
     z-index: 10;
