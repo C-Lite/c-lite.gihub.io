@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+body
+{
+    background-color: #fff !important;
+}
+
+#heading-text
+{
+    margin: 80px auto auto auto;
+}
+
 .card .img-thumbnail
 {
     border: none;
@@ -18,13 +28,12 @@
 .modal-body img.modal-img
 {
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    width: 20%;
 } 
 
 .modal-body .modal-heading-text
 {
-    text-align: right;
+    text-align: left;
     padding-left: 50px;
 }
 
@@ -38,10 +47,26 @@
     text-align: left;
 }
 
+.modal-body .modal-company
+{
+    padding: 40px 100px;
+}
+
+div.modal-body div.d-lg-flex.align-items-center.justify-content-between
+{
+    padding: 0px 100px;
+}
+
 @media screen and (max-width:992px)
 {
+    div.modal-body div.d-lg-flex.align-items-center.justify-content-between
+    {
+        padding: 0px 15px;
+    }
+
     .modal-body img.modal-img
     {
+        width: 30%;
         display: block;
         margin: auto auto 30px auto;
         text-align: center;
@@ -53,6 +78,17 @@
         text-align: center;
     }
     
+    .modal-body .modal-company
+    {
+        text-align: center;
+        padding: 40px 30px;
+    }
+
+    .modal-body .modal-company img
+    {
+        margin: 10px auto;
+    }
+
     .modal-body .modal-heading-text h2
     {
         margin-right: 0px;
