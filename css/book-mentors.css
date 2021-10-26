@@ -48,6 +48,53 @@ body
     text-align: left;
 }
 
+div#chips
+{
+    justify-content:start;
+}
+
+.md-chip {
+    display: inline-block;
+    background: #000;
+    color: white;
+    padding: 0 16px;
+    margin: 5px 4px;
+    border-radius: 32px;
+    font-size: 13px;
+    max-width:fit-content;
+    height: 32px;
+    line-height: 32px;
+}
+
+.md-chip:hover {
+    background: #ccc;
+}
+
+.chip-web
+{
+    background-color: violet;
+}
+
+.chip-cp
+{
+    background-color:tomato;
+}
+
+.chip-opensource
+{
+    background-color:chartreuse;
+}
+
+.chip-pm
+{
+    background-color:darkblue;
+}
+
+.chip-ml
+{
+    background-color: darkslateblue;
+}
+
 .modal-body .modal-company
 {
     padding: 40px 100px;
@@ -109,6 +156,12 @@ div.modal-body div.d-lg-flex.align-items-center.justify-content-between
         padding: 5px 30px 0px 30px;
         text-align: center;
     }
+    
+    div#chips
+    {
+        justify-content: center;
+    }
+
     table.table.table-striped
     {
         margin: 40px 0px;
