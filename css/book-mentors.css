@@ -40,6 +40,7 @@ body
 .modal-body .modal-heading-text h2
 {
     margin-right: 10px;
+    margin-bottom: 15px;
 }
 
 .modal-body .modal-heading-text p
@@ -86,17 +87,19 @@ div.modal-body div.d-lg-flex.align-items-center.justify-content-between
 
     .modal-body .modal-company img
     {
+        width: 50%;
         margin: 10px auto;
     }
 
     .modal-body .modal-heading-text h2
     {
         margin-right: 0px;
+        margin-bottom: 8px;
     }
     
     .modal-body .modal-heading-text p
     {
-        padding: 5px 15px 0px 15px;
+        padding: 5px 30px 0px 30px;
         text-align: center;
     }
     table.table.table-striped
