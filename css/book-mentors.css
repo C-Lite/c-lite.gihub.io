@@ -58,6 +58,13 @@ div.modal-body div.d-lg-flex.align-items-center.justify-content-between
     padding: 0px 100px;
 }
 
+
+#pricing div.card-body img
+{
+    width: 50%;
+}
+
+
 @media screen and (max-width:992px)
 {
     div.modal-body div.d-lg-flex.align-items-center.justify-content-between
