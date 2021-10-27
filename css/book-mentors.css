@@ -29,6 +29,7 @@ body
 .md-chip:hover
 {
     cursor: pointer;
+
 }
 
 .card-body .d-flex.justify-content-between.align-items-center
@@ -105,12 +106,12 @@ div#chips
 
 .modal-body .modal-company
 {
-    padding: 40px 100px;
+    padding: 20px 50px;
 }
 
 div.modal-body div.d-lg-flex.align-items-center.justify-content-between
 {
-    padding: 0px 100px;
+    padding: 0px 25px;
 }
 
 
@@ -181,6 +182,12 @@ div.modal-body div.d-lg-flex.align-items-center.justify-content-between
     z-index: 10;
 }
 
+.btn-close:hover{
+    /* background-color: red !important;  */
+    color: red !important;
+
+
+}
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
