@@ -1,11 +1,57 @@
+
 @media (max-width: 992px) {
   section a
   {
+    margin-left: auto;
     margin:auto;
+  }
+
+  #clite-footer #play-btn
+  {
+    margin-left: 80px;
+  }
+
+  #clite-footer div.row div
+  {
+    margin: 5px auto;
+  }
+  #clite-footer .nav.flex-column li
+  {
+    margin: auto !important;
   }
 }
 
+@media (max-width: 768px)
+{
+  #clite-footer #play-btn
+  {
+    margin-left: 30px;
+  }  
+}
+@media (max-width: 572px)
+{
+  #clite-footer
+  {
+    padding: 10px 15px;
+  }
+  #clite-footer #play-btn
+  {
+    margin-left: -10px;
+  }
+  #clite-footer .social-logo
+  {
+    margin-left:0px !important;
+    
+  }
+  #clite-footer .nav.flex-column li
+  {
+    margin-left: 0px !important;
+  }
+
+}
+
 @media (max-width: 500px) {
+
   section a.playstorebtn
   {
     margin-left: 2.5%;
@@ -185,6 +231,27 @@ section a.playstorebtn span
 #contact a.btn:hover
 {
   box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff !important;
+}
+
+#clite-footer .social-logo
+{
+  width: fit-content;
+}
+
+#clite-footer .social-logo a
+{
+  margin: 0px 5px;
+}
+
+#clite-footer #play-btn
+{
+  /* transform: translateX(-10px) !important; */
+  width: 180px;
+}
+
+#clite-footer .nav.flex-column li
+{
+  margin-left: 0px;
 }
 /**********************footer part css*******************/
 /* line 2, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_footer.scss */
