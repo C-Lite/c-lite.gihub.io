@@ -16,13 +16,24 @@ body
 
 .card .img-thumbnail
 {
+    cursor: pointer;
     border: none;
-    transform: scale(0.95);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px;
+    border-radius: 0px;
 }
 
-.card:hover
+.md-chip:hover
 {
     cursor: pointer;
+}
+
+.card-body .d-flex.justify-content-between.align-items-center
+{
+    margin-top: -20px;
 }
 
 .modal-body img.modal-img
@@ -66,9 +77,6 @@ div#chips
     line-height: 32px;
 }
 
-.md-chip:hover {
-    background: #ccc;
-}
 
 .chip-web
 {
