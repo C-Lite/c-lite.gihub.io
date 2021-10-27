@@ -104,6 +104,10 @@ div#chips
     background-color: darkslateblue;
 }
 
+.chip-case
+{
+    background-color: rgb(93, 74, 179);
+}
 .modal-body .modal-company
 {
     padding: 20px 50px;
