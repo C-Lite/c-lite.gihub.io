@@ -153,6 +153,14 @@ div.modal-body div.d-lg-flex.align-items-center.justify-content-between
         margin-right: 20px !important;
     }
 }
+
+@media screen and (max-width:572px)
+{
+    #img-carousel img
+    {
+        width: 180px;
+    }
+}
 @media screen and (max-width:992px)
 {
     #poster-img img
