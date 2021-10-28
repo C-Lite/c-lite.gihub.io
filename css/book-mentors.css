@@ -247,7 +247,7 @@ div.modal-body div.d-lg-flex.align-items-center.justify-content-between
 /* community */
 
 .join-community{
-    cursor: pointer;
+    /* cursor: pointer; */
     padding: 50px;
 }
 
