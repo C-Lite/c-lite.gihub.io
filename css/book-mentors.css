@@ -106,6 +106,8 @@ div#chips
 {
     background-color: rgb(93, 74, 179);
 }
+
+
 .modal-body .modal-company
 {
     padding: 20px 50px;
@@ -206,16 +208,16 @@ div.modal-body div.d-lg-flex.align-items-center.justify-content-between
 /* footer */
 .clite-footer{
     background-color: #31343c;
-
 }
-
 
 /* community */
 
 .join-community{
+    cursor: pointer;
     padding: 50px;
-    
 }
+
 .comm-butt{
+    cursor: pointer;
     padding: 20px 10px 10px 0;
 }

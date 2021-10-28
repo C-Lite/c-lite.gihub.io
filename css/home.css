@@ -233,6 +233,11 @@ section a.playstorebtn span
   box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff !important;
 }
 
+/* footer */
+.clite-footer{
+  background-color: #31343c;
+}
+
 #clite-footer .social-logo
 {
   width: fit-content;
