@@ -124,8 +124,42 @@ div.modal-body div.d-lg-flex.align-items-center.justify-content-between
     width: 50%;
 }
 
+#poster-img img
+{
+    display: block;
+    -webkit-animation: up-down 2s infinite  alternate;
+    animation: up-down 2s infinite alternate;
+}
+
+@keyframes up-down {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(20px);
+    }
+}
+
+#img-carousel img
+{
+    width: 200px;
+}
+
+@media screen and (min-width:992px)
+{
+    #poster-img img
+    {
+        margin-left: auto !important;
+        margin-right: 20px !important;
+    }
+}
 @media screen and (max-width:992px)
 {
+    #poster-img img
+    {
+        margin: auto !important;
+    }
+
     div.modal-body div.d-lg-flex.align-items-center.justify-content-between
     {
         padding: 0px 15px;
