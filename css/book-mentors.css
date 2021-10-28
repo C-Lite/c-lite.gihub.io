@@ -13,6 +13,18 @@ body
 {
     margin: 80px auto auto auto;
 }
+#heading-text .btn.btn-primary.my-2.btn-lg
+{
+    margin-right: 20px;
+}
+
+@media screen and (max-width:412px)
+{
+    #heading-text .btn.btn-primary.my-2.btn-lg
+    {
+        margin-right: 0px;
+    }
+}
 
 .card:hover
 {
@@ -154,6 +166,8 @@ div.modal-body div.d-lg-flex.align-items-center.justify-content-between
     }
 }
 
+
+
 @media screen and (max-width:572px)
 {
     #img-carousel img
@@ -255,11 +269,14 @@ div.modal-body div.d-lg-flex.align-items-center.justify-content-between
 /* community */
 
 .join-community{
-    cursor: pointer;
+    /* cursor: pointer; */
     padding: 50px;
 }
 
 .comm-butt{
+    width: 90%;
+    max-width: 284px;
     cursor: pointer;
     padding: 20px 10px 10px 0;
 }
+
