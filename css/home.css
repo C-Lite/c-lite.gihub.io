@@ -233,31 +233,7 @@ section a.playstorebtn span
   box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff !important;
 }
 
-/* footer */
-.clite-footer{
-  background-color: #31343c;
-}
 
-#clite-footer .social-logo
-{
-  width: fit-content;
-}
-
-#clite-footer .social-logo a
-{
-  margin: 0px 5px;
-}
-
-#clite-footer #play-btn
-{
-  /* transform: translateX(-10px) !important; */
-  width: 180px;
-}
-
-#clite-footer .nav.flex-column li
-{
-  margin-left: 0px;
-}
 /**********************footer part css*******************/
 /* line 2, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_footer.scss */
 .footer_part {

@@ -280,3 +280,28 @@ div.modal-body div.d-lg-flex.align-items-center.justify-content-between
     padding: 20px 10px 10px 0;
 }
 
+/* footer */
+.clite-footer{
+    background-color: #31343c;
+  }
+  
+#clite-footer .social-logo
+{
+width: fit-content;
+}
+
+#clite-footer .social-logo a
+{
+margin: 0px 5px;
+}
+
+#clite-footer #play-btn
+{
+/* transform: translateX(-10px) !important; */
+width: 180px;
+}
+
+#clite-footer .nav.flex-column li
+{
+margin-left: 0px;
+}
