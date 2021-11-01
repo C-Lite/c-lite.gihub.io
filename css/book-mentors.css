@@ -70,6 +70,8 @@ body
     text-align: left;
 }
 
+/* chips */
+
 div#chips
 {
     justify-content:start;
@@ -91,32 +93,37 @@ div#chips
 
 .chip-web
 {
-    background-color: violet;
+    background-color: #28AB9B;
 }
 
 .chip-cp
 {
-    background-color:tomato;
+    background-color: #F59292;
 }
 
 .chip-opensource
 {
-    background-color:chartreuse;
+    background-color: #295A6F;
 }
 
 .chip-pm
 {
-    background-color:darkblue;
+    background-color: #336787;
 }
 
 .chip-ml
 {
-    background-color: darkslateblue;
+    background-color: #EDC462;
 }
 
 .chip-case
 {
-    background-color: rgb(93, 74, 179);
+    background-color: #F6A768;
+}
+
+.chip-vc
+{
+    background-color: #12A6D7;
 }
 
 
