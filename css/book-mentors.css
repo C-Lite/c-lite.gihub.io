@@ -312,3 +312,53 @@ width: 180px;
 {
 margin-left: 0px;
 }
+
+
+@media (max-width: 992px) {
+    section a
+    {
+        margin-left: auto;
+        margin:auto;
+    }
+
+    #clite-footer #play-btn
+    {
+        margin-left: 80px;
+    }
+
+    #clite-footer div.row div
+    {
+        margin: 5px auto;
+    }
+    #clite-footer .nav.flex-column li
+    {
+        margin: auto !important;
+    }
+}
+
+@media (max-width: 768px){
+    #clite-footer #play-btn
+    {
+        margin-left: 30px;
+    }  
+}
+
+@media (max-width: 572px){
+    #clite-footer
+    {
+        padding: 10px 15px;
+    }
+    #clite-footer #play-btn
+    {
+        margin-left: -10px;
+    }
+    #clite-footer .social-logo
+    {
+        margin-left:0px !important;
+        
+    }
+    #clite-footer .nav.flex-column li
+    {
+        margin-left: 0px !important;
+    }
+}
