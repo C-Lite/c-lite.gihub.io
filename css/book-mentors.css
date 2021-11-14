@@ -362,3 +362,38 @@ margin-left: 0px;
         margin-left: 0px !important;
     }
 }
+
+/* Program Details */
+
+#program-details
+{
+    background-color: #F8F5FE;
+}
+
+#program-details .card
+{
+    min-height: 316px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 16px 4px rgb(0 0 0 / 10%);
+}
+
+#program-details .card img
+{
+    border-radius: 50%;
+    height: 65px;
+    margin-right: 15px;
+}
+
+#program-details .card .card-title
+{
+    font-weight: 800;
+}
+
+#program-details .card .card-text
+{
+
+    font-weight: 600;
+}
+
+
