@@ -362,3 +362,15 @@ margin-left: 0px;
         margin-left: 0px !important;
     }
 }
+
+/* Program Details */
+
+
+#program-details .card
+{
+    border-radius: 5px;
+    min-height: 271px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 16px 4px rgb(0 0 0 / 10%);
+}
